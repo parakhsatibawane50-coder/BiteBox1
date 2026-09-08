@@ -5,13 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        td{
+        th,td{
             border: 2px solid black;
+             padding: 8px;
+            
         }
         table{
             border-collapse: collapse;
             width: 500px;
            
+           
+        }
+        #last{
+            text-align: center;
         }
         
     </style>
@@ -77,7 +83,100 @@
                  A delicious loaded sandwich packed with fresh vegetables, creamy sauces,
             melted cheese, and flavorful fillings, served toasted and satisfying.
             </p>
+
+            <hr>
+
+            <h2>Restaurant Menu</h2>
+
+            <!-- Table  -->
+            <table>
+                <caption>
+                    BiteBox Menu
+                </caption>
+
+                <tr>
+                    <th>Category</th>
+                    <th>Food Items</th>
+                    <th>Price</th>
+                    <th>Availability</th>
+                    <th>Ratings⭐</th>
+                    
+                </tr>
+                <tr>
+                     <td rowspan="3">Pizza</td>
+ 
+                     <td>Veg Pizza</td>
+ 
+                    <td>₹299</td>
+ 
+                    <td>Available</td>
+                     <td>7.8⭐ </td>
+
+                     	
+            <tr>
+            <td>Farmhouse Pizza</td>
+            <td>₹349</td>
+        <td>Available</td>
+         <td>8.3⭐ </td>
+        </tr>
+        <tr>
+    <td>Paneer Pizza</td>
+    <td>₹329</td>
+    <td>Limited</td>
+     <td>7.9⭐ </td>
+</tr>
+
+
+ 
+        </tr>
+
+        <tr>
+            <td>Burger</td>
+            <td>Cheese Burger</td>
+            <td>₹199</td>
+            <td>Available</td>
+             <td>7.5⭐ </td>
+
+        </tr>
+
+                <tr>
+            <td>Pasta</td>
+            <td>White Sauce Pasta</td>
+            <td>₹249</td>
+            <td>Available</td>
+             <td>8.2⭐ </td>
+
+        </tr>
+
+        <tr>
+
+        <td>Sandwich</td>
+            <td>Veg Grilled Sandwich</td>
+                <td>₹179</td>
+             <td>Available</td>
+              <td>7.7⭐ </td>
+
+  
+            </tr>
+
+            <tr>
+  
+            <td>Dessert</td>
+            <td>Chocolate Brownie</td>
+            <td>₹149</td>
+            <td>Limited</td>
+             <td>7.9⭐ </td>
+
+
+            </tr>
+            <tr>
+                <td colspan="5" id="last">Weekend offer: Flat 20% OFF on Combo Meals</td>
+            </tr>
+            </table>
+
+
             <!-- Ctrl + Shift + i -->
+             <!-- Food Categories -->
                    <h2> Food Categories </h2>
 
            <ul>
