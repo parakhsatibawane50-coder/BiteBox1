@@ -1,25 +1,142 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Contact Us</title>
 </head>
+
 <body>
-    <h1>Contact US</h1>
+
+    <h1>Contact Us</h1>
+
     <p>
         <a href="index.html">Home</a> |
         <a href="about.html">About</a> |
         <a href="menu.html">Menu</a> |
-        <a href="contact.html">Contact</a> |
+        <a href="contact.html">Contact</a>
     </p>
 
-    <h2> Visit Our Website </h2>
+    <h2>Visit Our Website</h2>
 
     <p>
-        <a href="https://www.google.com/" target="_blank"> Visit Google</a>
+        <a href="https://www.google.com/" target="_blank">
+            Visit Google
+        </a>
     </p>
 
+    <hr>
+
+    <h2>Customer Registration & Order Form</h2>
+
+    <form action="">
+
+        <h3>Customer Information</h3>
+
+        <label for="fullname">Full Name:</label>
+        <br>
+        <input type="text" id="fullname" name="fullname" required>
+        <br><br>
+
+        <label for="email">Email:</label>
+        <br>
+        <input type="email" id="email" name="email" required>
+        <br><br>
+
+        <label for="password">Password:</label>
+        <br>
+        <input type="password" id="password" name="password" required>
+        <br><br>
+
+        <label for="phone">Phone Number:</label>
+        <br>
+        <input type="tel" id="phone" name="phone" required>
+        <br><br>
+
+        <h3>Order Information</h3>
+
+        <label for="quantity">Quantity:</label>
+        <br>
+
+        <input type="number" name="quantity" id="quantity" min="1" required>
+
+        <br><br>
+
+        <label for="deliveryDate">Preferred Delivery Date:</label>
+        <br>
+
+        <input type="date" name="deliveryDate" id="deliveryDate">
+
+        <br><br>
+
+        <label for="food">Select Food Item:</label>
+        <br>
+
+        <select name="food" id="food">
+
+            <option value="veg-pizza">Veg Pizza</option>
+            <option value="garlic-bread">Garlic Bread</option>
+            <option value="coke">Coke</option>
+            <option value="cheese-burger">Cheese Burger</option>
+            <option value="french-fries">French Fries</option>
+            <option value="white-sauce-pasta">White Sauce Pasta</option>
+            <option value="chocolate-brownie">Chocolate Brownie</option>
+            <option value="ice-cream">Ice Cream</option>
+            <option value="fruit-salad">Fruit Salad</option>
+
+        </select>
+
+        <br><br>
+
+        <h3>Payment Method</h3>
+
+        <input type="radio" name="payment" id="cash" value="cash">
+        <label for="cash">Cash</label>
+
+        <br>
+
+        <input type="radio" name="payment" id="card" value="card">
+        <label for="card">Card</label>
+
+        <br>
+
+        <input type="radio" name="payment" id="upi" value="upi">
+        <label for="upi">UPI</label>
+
+        <br><br>
+
+        <h3>Extras</h3>
+        
+            <input type="checkbox" name="cheese" id="cheese" value="extra-cheese">
+                <label for="cheese">Extra Cheese</label>
+                <br>
+
+                    <input type="checkbox" name="drink" id="drink" value="cold-drink">
+            <label for="drink">Cold Drink</label>
+<br>
+
+            <input type="checkbox" name="dessert" id="dessert" value="dessert">
+                <label for="dessert">Dessert</label>
+        <br>
+
+        <h3>Delivery Instructions</h3>
+
+            <label for="address">Delivery Address:</label>
+            <br>
+
+                <textarea name="address" id="address" rows="5" cols="40"></textarea>
+
+            <br><br>
+
+        <input type="submit" value="Place Order">
+
+        <input type="reset" value="Clear Form">
+
+
+
+    </form>
 
 </body>
 </html>
+
