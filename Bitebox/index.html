@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>BiteBox</title>
+    <link rel="stylesheet" href="css/style.css">
 
     <!-- <style>
         .vertical-line{
@@ -16,28 +17,106 @@
   </head>
   <body>
     <!-- Restaurant Name -->
-    <header>
-      <h1><mark>BiteBox </mark></h1>
-
+    <header id="header">
+      <!-- Restaurant logo -->
+      <img  class="logo"   src="assests/images/BiteBox1.jpg" alt="BiteBox1" >
       <!-- Navigation Menu -->
 
-      <nav>
-        <a href="index.html">Home</a> | <a href="about.html">About</a> |
-        <a href="menu.html">Menu</a> | <a href="contact.html">Contact</a> |
+      <nav id="links">
+        <a class="li" href="index.html">Home</a> | <a  class="li"     href="about.html">About</a> |
+        <a  class="li"  href="menu.html">Menu</a> | <a class="li" href="contact.html">Contact</a> | <img src="assests/images/Cart-icons.jpg" alt="" height="45px" width="45px">
+
+        
       </nav>
-    </header>
+          </header>
 
     <!-- Start main Section -->
-    <!-- Welcome Section -->
+    
     <main>
+      <!-- Hero Section Start -->
       <section>
-        <h2>Welcome to BiteBox</h2>
+        <h1>Delicious  Food  Delivered To Your  Doorstep</h1>
 
         <p>
-          <strong>Fresh Food </strong>|
-          <em>Fast Delivery</em>
+          Fresh ingridents, delicious recipes, and fast delivery-all  in one place.
         </p>
+        <a href="menu.html">Order Now</a>
+
+        <a href="menu.html">Explore Menu</a>
       </section>
+
+      <!-- Why choose Us -->
+      <section>
+        <h2>Why Choose BiteBox?</h2>
+
+        <article>
+          <img src="assests/images/Food1pg.jpg" alt="" height="200px" width="180px">
+
+          <h3>
+            Fresh Ingredients
+          </h3>
+
+            <p>
+              Every Meal is prepared  using Fresh vegetables and premium quality ingridents..
+
+            </p>
+
+
+        </article>
+
+        <article>
+          <img src="assests/images/Free Delivery2.jpg" alt="" height="200px" width="180px">
+
+          <h3>
+            Fast Delivery
+          </h3>
+
+            <p>
+             Get your favourite meals delivered quickly to your doorsteps.
+            </p>
+
+
+        </article>
+
+        <article>
+          <img src="assests/images/HygienceFood.jpg" alt="" height="200px" width="180px">
+
+          <h3>
+            Hygienic Kitchen
+          </h3>
+
+            <p>
+             Our Meals  are Prepared 
+            </p>
+
+
+        </article>
+
+        <article>
+          <img src="assests/images/Zomatopg.jpg" alt="" height="200px" width="180px">
+
+          <h3>
+            Easy Online  Ordering
+          </h3>
+
+            <p>
+              Browser the menu, place your order, and enjoy your meal with just  a few clicks
+            </p>
+
+
+        </article>
+
+
+
+      </section>
+
+
+
+
+
+
+
+
 
       <hr class="vertical-line" />
       <!-- About section -->
@@ -77,29 +156,195 @@
         </p>
       </section>
 
-      <!-- Features Section -->
-      <article>
-        <hr />
+      <!-- Today Features Section -->
+      <section id="popular-dishes">
 
-        <h2>Today's Featured Dishes</h2>
+        <h2>Popular Dishes</h2>
+        <article>
+          <img src="assests/images/Pizza2.png" alt="" height="200px" width="200px">
 
-        <p>Pizza</p>
+          <h3>Cheesy Pizza</h3>
 
-        <p>Burger</p>
+          <p>
+            Loaded with Fresh vegetables and mozzarella cheese.
+          </p>
 
-        <p>Pasta</p>
-      </article>
+          <p>
+            <span>
+              ⭐⭐⭐⭐
+            </span>
+            <small>(126)</small>
+          </p>
+          <p><strong> ₹249 </strong></p>
 
-      <!-- Today special offers -->
-      <section>
-        <p>Get <b>20% OFF</b>on your <u>First Order</u></p>
 
-        <p>Offer Valid Till 31 <sup>st</sup> December</p>
+          <article>
+          <img src="assests/images/Burger3.png" alt="" height="200px" width="200px">
 
-        <p>
-          Our beverages include H<sub>2</sub>0, Fresh Juices, and Soft Drinks
-        </p>
+          <h3>Classic Cheese Burger</h3>
+
+          <p>
+            Loaded with Fresh vegetables and mozzarella cheese.
+          </p>
+
+          <p>
+            <span>
+              ⭐⭐⭐⭐
+            </span>
+            <small>(126)</small>
+          </p>
+          <p><strong> ₹270 </strong></p>
+
+
+
+          <article>
+          <img src="assests/images/Biryani2.jpg" alt="" height="200px" width="200px">
+
+          <h3>Chicken Biryani</h3>
+
+          <p>
+            Loaded with Fresh vegetables and mozzarella cheese.
+          </p>
+
+          <p>
+            <span>
+              ⭐⭐⭐⭐
+            </span>
+            <small>(126)</small>
+          </p>
+          <p><strong> ₹370 </strong></p>
+
+
+
+          <article>
+          <img src="assests/images/ChocolateCake.jpg" alt=""  height="200px" width="200px" >
+
+          <h3>Chocolate Cake</h3>
+
+          <p>
+            Loaded with Fresh vegetables and mozzarella cheese.
+          </p>
+
+          <p>
+            <span>
+              ⭐⭐⭐⭐
+            </span>
+            <small>(126)</small>
+          </p>
+          <p><strong> ₹200 </strong></p>
+
+
+
+
+
+
+        </article>
+
+
+
+
+
+
+
+
+
       </section>
+
+        <!-- Todays Special Offers -->
+            <section id="offer">
+            <div class="offer-content">
+                <h2>Today's Special Offer!</h2>
+                <p> Get <strong>20% OFF</strong> on all orders above 
+                <strong>₹499</strong></p>
+                <p> Use Code: <strong>BITE20</strong></p>
+                <a href="menu.html"> Order Now </a>
+            </div>
+ 
+            <div class="offer-image">
+                <img src="assests/images/pizza-discount.jpg" 
+                alt="" width="250px" height="180px">
+
+                <img src="assests/images/offer2.jpg" alt="" width="180px" height="150px">
+            </div>
+            </section>
+
+
+
+            <!--Customer Reviews-->
+       <section id="reviews">
+           <h2>What Our Customers Say</h2>
+
+          <article>
+             <img src="assests/images/Customer2.jpg" alt="" 
+                width="120px" height="120px">
+                <h3>Priya Sharma</h3>
+                <p> Amazing food and super fast delivery.
+                    BiteBox is my go-to place every time!
+                </p>
+                <p> <span>⭐⭐⭐⭐⭐</span> </p>
+            </article>
+
+          <article>
+             <img src="assests/images/Customer3.jpg" alt=""
+             width="120px"  height="120px">
+              <h3>Rahul Verma</h3>
+            <p>
+        
+                    The food quality is excellent and
+                    always fresh. Highly recommended!
+                </p>
+                <p> <span>⭐⭐⭐⭐⭐</span> </p>
+            </article>
+
+
+             
+
+            <article>
+                <img src="assests/images/Customer4.jpg" alt="" 
+                width="120px" height="120px">
+                <h3>Anjali Mehta</h3>
+                <p>
+                    Great taste, great service and
+                    very easy to order. Love it!
+                </p>
+                <p> <span>⭐⭐⭐⭐⭐</span> </p>
+            </article>
+        </section>
+
+
+        <section id="newsletter">
+
+          <div class="newsletter-content">
+            <img src="assests/images/mail3.png" alt="" width="120px" height="120px">
+
+            <div>
+              <h2>Stay Updated</h2>
+              <p>
+                Subscribe to our newsletter and get the latest
+                offers and updates.
+              </p>
+            </div>
+
+
+
+          </div>
+
+          <div class="newsletter-form">
+            <input type="email" placeholder="Enter your email">
+          <button> Subscribe </button>
+
+          </div>
+
+          <div class="newsletter-image"> <br>
+            <img src="assests/images/newsletter-food2.jpg" alt="" width="150px" height="155px" >
+            
+          </div>
+
+
+
+
+        </section>
+
 
       <!--Contact Information  -->
       <section>
@@ -136,9 +381,96 @@
 
     <!-- Footer Section -->
     <footer>
-      <hr />
-      <p>© 2026 BiteBox</p>
-      <p>bye</p>
+      
+
+<footer>
+
+    <!-- Footer Logo Section -->
+    <section>
+        <img src="assests/images/BiteBox1.jpg" alt="" width="150px">
+        <p> Delicious food delivered to your doorstep.
+            Fresh, fast and tasty!
+        </p>
+
+        <a href="#">
+            <img src="assests/images/facebook3jpg.jpg" alt="" width="35px" height="35px">
+        </a>
+
+        <a href="#">
+            <img src="assests/images/insta3.jpg" alt="" width="35px" height="35px">
+        </a>
+
+        <a href="#">
+            <img src="assests/images/twitter2.jpg" alt="" width="35px" height="35px">
+        </a>
+
+        <a href="#">
+            <img src="assests/images/youtube3.jpg" alt="" width="35px" height="35px">
+        </a>
+        
+
+            </section>
+
+    <hr>
+
+            <!-- Quick links -->
+            <section>
+        <h3>Quick Links</h3>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="cart.html">Cart</a></li>
+        </ul>
+    </section>
+    <hr>
+    
+    <!-- Customer Service -->
+     <section>
+        <h3>Customer Service</h3>
+        <ul>
+            <li>Track Order</li>
+            <li>FAQs</li>
+            <li>Shipping Policy</li>
+            <li>Return Policy</li>
+            <li>Terms and Conditions</li>
+        </ul>
+     </section>
+     <hr>
+
+
+
+
+
+    <!-- Contact Information -->
+    <section>
+        <h3>Contact Us</h3>
+        <p>📞 +91 98765 43210</p>
+        <p>✉ support@bitebox.com</p>
+        <p>📍 123 Food Street, Mumbai, Maharashtra 400001 </p>
+    </section>
+
+    <hr>
+
+    <!-- Payment Methods -->
+    <section>
+        <h3>Payment Methods</h3>
+        <img src="assests/images/visa3.jpg" alt="" width="60px" height="60">
+        <img src="assests/images/mastercard3.jpg" alt="" width="60px" height="60">
+        <img src="assests/images/upi2.jpg" alt="" width="60px" height="60">
+        <img src="assests/images/onlinepayment.jpg"  alt="" width="60px">
+    </section>
+
+    <hr>
+    <p> © 2026 BiteBox. All Rights Reserved. </p>
+
+</footer>
+
+
+
+      
     </footer>
+    <link rel="stylesheet" href="./style.css">
   </body>
 </html>
