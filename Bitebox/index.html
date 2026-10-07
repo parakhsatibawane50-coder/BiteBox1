@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>BiteBox</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 
     <!-- <style>
         .vertical-line{
@@ -17,32 +20,49 @@
   </head>
   <body>
     <!-- Restaurant Name -->
-    <header id="header">
+    <header >
       <!-- Restaurant logo -->
       <img  class="logo"   src="assests/images/BiteBox1.jpg" alt="BiteBox1" >
       <!-- Navigation Menu -->
 
       <nav id="links">
         <a class="li" href="index.html">Home</a> | <a  class="li"     href="about.html">About</a> |
-        <a  class="li"  href="menu.html">Menu</a> | <a class="li" href="contact.html">Contact</a> | <img src="assests/images/Cart-icons.jpg" alt="" height="45px" width="45px">
+        <a  class="li"  href="menu.html">Menu</a> | <a class="li" href="contact.html">Contact</a> |
+        <a href="Cart.html">
+          <img src="assests/images/Cart-icons.jpg" alt="" height="45px" width="45px">
 
+        </a>
+         
         
       </nav>
           </header>
+
+          <!-- <img class="po"  src="assests/images/Background-Bite2.jpg" alt="" > -->
+
 
     <!-- Start main Section -->
     
     <main>
       <!-- Hero Section Start -->
-      <section>
-        <h1>Delicious  Food  Delivered To Your  Doorstep</h1>
+      <section id="home-hero">
+        <h1>Delicious  Food  Delivered To Your <span> Doorstep </span> </h1>
 
         <p>
           Fresh ingridents, delicious recipes, and fast delivery-all  in one place.
         </p>
-        <a href="menu.html">Order Now</a>
 
-        <a href="menu.html">Explore Menu</a>
+        <div class="hero-buttons">
+
+          <button class="order-btn">
+            <a class="ol"  href="menu.html">Order Now</a>
+          </button>
+
+        <button class="menu-btn" style="background-color: transparent; border: 2px solid white;">
+          <a class="ml" href="menu.html">Explore Menu</a>
+
+        </button>
+        </div>
+        
       </section>
 
       <!-- Why choose Us -->
